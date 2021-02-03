@@ -1,0 +1,13 @@
+a {
+  color: black;
+}
+.div, form {
+  background-color: red;
+}
+.completed {
+  background-color: green;
+}
+
+.completed a, .completed form {
+    color: whitesmoke;
+}

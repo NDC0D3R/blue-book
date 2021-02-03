@@ -1,0 +1,7 @@
+<div [class.completed]="completed === true">
+  <div *ngFor="let textitem of file; let index = i">
+    <button (click)="download('Bluebook_'+i+'.vcf', textitem);">
+      {{ i }}: Bluebook_{{ i }}.vcf
+    </button>
+  </div>
+</div>
